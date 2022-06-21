@@ -14,7 +14,7 @@ services:
     # BASE_URL: 158.101.142.148
     AUTH_DEFAULT_ROLES: readable devicestatus-upload
     PUMP_FIELDS: reservoir battery status
-    ENABLE: bridge loop openaps pump iob cob basal careportal sage cage delta direction devicestatus upbat timeago
+    # ENABLE: bridge loop openaps pump iob cob basal careportal sage cage delta direction devicestatus upbat timeago
     CUSTOM_TITLE: NightscoutT1
     DISPLAY_UNITS: mmol 
     TIME_FORMAT: 24
