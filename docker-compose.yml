@@ -24,7 +24,7 @@ services:
     SHOW_PLUGINS: pump openaps
   container_name: "nightscout1"
   ports:
-    - "1337:443"
+    - "443:1337"
   links:
     - mongo
   restart: always
