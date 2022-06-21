@@ -28,7 +28,7 @@ services:
   links:
     - mongo
   restart: always
-  mongo:
+ mongo:
   container_name: "mongo_db"
   image: mongo:3.6-stretch
   volumes:
